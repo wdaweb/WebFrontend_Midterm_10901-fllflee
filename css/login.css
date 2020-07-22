@@ -1,0 +1,81 @@
+        body {
+            margin: 0px;
+        }
+        
+        .main {
+            width: 100vw;
+            height: 100vh;
+            /* vh,vw是可視面積的單位100為滿*/
+            background: url(../img/bg.jpg) no-repeat;
+            /* 背景圖不重複 */
+            background-size: 100% auto;
+            /* 背景圖以寬度100%，高度隨圖大小自動 */
+            display: flex;
+            /* 用flex布局 */
+            flex-direction: column;
+            /* 列排布局 */
+        }
+        
+        .flex1 {
+            flex: 1;
+        }
+        
+        .flex2 {
+            flex: 2;
+        }
+        
+        .flex3 {
+            flex: 3;
+        }
+        
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        
+        .box2 {
+            padding: 0px 10px;
+            /* 讓它有左右邊距10 */
+        }
+        
+        .box2 h5 {
+            position: relative;
+            top: -20px;
+            /* h5和h3分得太開了，往上靠20px */
+        }
+        
+        .box3 {
+            text-align: center;
+            /* 內容水平居中 */
+        }
+        
+        .box3 input {
+            font-size: 18px;
+            /* 改輸入框字的大小 */
+            border: none;
+            /* 去掉邊框 */
+            border-bottom: 1px solid #333;
+            /* 加底部邊框 */
+        }
+        
+        .box3 span {
+            font-size: 12px;
+            /* 字變小 */
+            position: relative;
+            /* 相對定位 */
+            top: -20px;
+            right: -100px;
+        }
+        
+        .box3 button {
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+            background: #ed7d31;
+            border: none;
+            border-radius: 20px;
+        }
+        
+        .box5 {
+            text-align: center;
+        }

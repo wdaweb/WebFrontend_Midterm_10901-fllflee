@@ -1,0 +1,70 @@
+HTML CSSResult .fontsize1 {
+    font-size: 30px;
+}
+
+.teacher1 {
+    transition: 1s;
+    transform-origin: 0 0;
+}
+
+.teacher1:hover {
+    background-color: rgb(151, 169, 228);
+    transform: rotateY(720deg);
+}
+
+.teacher2 {
+    transition: 1s;
+    transform-origin: 0 0;
+}
+
+.teacher2:hover {
+    background-color: rgb(151, 169, 228);
+    transform: rotate(360deg);
+}
+
+.teacher3 {
+    transition: 1s;
+    transform-origin: 0 0;
+}
+
+.teacher3:hover {
+    background-color: rgb(151, 169, 228);
+    transform: skewX(45deg);
+}
+
+.teacher4 {
+    transition: 1s;
+    transform-origin: 0 0;
+}
+
+.teacher4:hover {
+    background-color: rgb(151, 169, 228);
+    transform: scale(-1);
+}
+
+.teacher5 {
+    transition: 1s;
+    transform-origin: 0 0;
+}
+
+.teacher5:hover {
+    background-color: rgb(151, 169, 228);
+    transform: translate(50px);
+}
+
+.card a {
+    transition: all 0.8s;
+}
+
+.card a:hover {
+    background-color: lightskyblue;
+    color: aliceblue;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 標楷體;
+    transform: scale(1.1);
+}
+
+.card :hover {
+    background-color: lightskyblue;
+}
